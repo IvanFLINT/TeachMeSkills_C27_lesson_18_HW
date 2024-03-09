@@ -2,8 +2,9 @@ package src.com.teachmeskills.lesson18.task1.runner;
 
 import src.com.teachmeskills.lesson18.task1.service.Service;
 
-import java.util.List;
-
+/**
+ * In the Runner class, the main method calls methods for working with Stream.
+ */
 public class Runner {
     public static void main(String[] args) {
         Service.inputArray();

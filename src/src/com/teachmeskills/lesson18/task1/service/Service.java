@@ -3,6 +3,16 @@ package src.com.teachmeskills.lesson18.task1.service;
 import java.util.*;
 import java.util.stream.Stream;
 
+/**
+ *The Service class contains methods for working with Stream.
+ *  The inputArray method will populate the list with random integers.
+ *  The removingDuplicates method removes duplicates.
+ *  The utputElements method outputs all even elements in the range from 7 to 17 (inclusive).
+ *  The multiplicationElements method multiplies each element by 2.
+ *  The sortingElements method sorts and displays the first 4 elements.
+ *  The amountElements method displays the number of elements in the stream.
+ *  The average method displays the arithmetic average of all numbers in the stream
+ */
 public class Service {
     public static List<Integer> inputArray(){
         List<Integer> list = new ArrayList<>();
